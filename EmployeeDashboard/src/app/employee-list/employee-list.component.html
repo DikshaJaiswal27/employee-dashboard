@@ -1,0 +1,21 @@
+<div class="container">
+  <h4 class="text-center p-3 font-weight-bold">List of Register Employee</h4>
+  <table class="table p-2 text-left">
+    <thead>
+      <tr class="font-weight-bold">
+        <th scope="col">ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">User Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employeeArr; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ employee.firstName }}</td>
+        <td>{{ employee.lastName }}</td>
+        <td>{{ employee.username }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

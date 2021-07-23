@@ -1,0 +1,22 @@
+.login-container {
+    width: 40vw;
+    height: 60vh;
+    background-color: #a6b7bd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.reg-btn {
+    padding-left: 0px;
+}
+.loginBtn {
+     width:100%
+}
+button:disabled{
+  background-color: transparent;
+}
+input.ng-invalid.ng-touched {
+  border-color: red;
+}

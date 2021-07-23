@@ -1,0 +1,151 @@
+{
+  "employee": [
+    {
+      "firstName": "Diksha",
+      "lastName": "Jaiswal",
+      "username": "DikshaJ",
+      "password": "dj123",
+      "role": "user",
+      "id": "11GT8NIq"
+    },
+    {
+      "firstName": "sakshee",
+      "lastName": "Modi",
+      "username": "SaksheeJ",
+      "password": "sj123",
+      "role": "user",
+      "id": "kIPYBau"
+    },
+    {
+      "firstName": "aaryan",
+      "lastName": "J",
+      "username": "aaryanJ",
+      "password": "aaryan",
+      "role": "admin",
+      "id": "1GT8NIq"
+    },
+    {
+      "firstName": "samrat",
+      "lastName": "joshi",
+      "username": "samratJ",
+      "password": "samj123",
+      "role": "user",
+      "id": "rBtDHt4"
+    },
+    {
+      "firstName": "mamatha",
+      "lastName": "P",
+      "username": "mamathaP",
+      "password": "mamatha123",
+      "role": "user",
+      "id": "rBtDHt4"
+    },
+    {
+      "firstName": "gf",
+      "lastName": "k",
+      "username": "jhg",
+      "password": "jhgjhgf",
+      "role": "user",
+      "id": "KuCaPDd"
+    }
+  ],
+  "login": [
+    {
+      "id": "11GT8NIq",
+      "username": "dj",
+      "password": "j"
+    },
+    {
+      "username": "DikshaJ",
+      "password": "j",
+      "id": "x0hDFGH"
+    },
+    {
+      "username": "diksha",
+      "password": "j",
+      "id": "ZhPxpf5"
+    },
+    {
+      "username": "h",
+      "password": "h",
+      "id": "DyC97be"
+    },
+    {
+      "username": "h",
+      "password": "f",
+      "id": "DFgT5p4"
+    },
+    {
+      "username": "gf",
+      "password": "hgfd",
+      "id": "REXRGrL"
+    },
+    {
+      "username": "DikshaJ",
+      "password": "dj123",
+      "id": "MR3pen7"
+    },
+    {
+      "username": "admin123",
+      "password": "sgsj",
+      "id": "ag9PF9L"
+    },
+    {
+      "username": "DikshaJ",
+      "password": "dj123",
+      "id": "87JHtS0"
+    },
+    {
+      "username": "Diksha",
+      "password": "hgf",
+      "id": "wWvY8BL"
+    },
+    {
+      "username": "admin",
+      "password": "a123",
+      "id": "Tn1Elsl"
+    },
+    {
+      "username": "",
+      "id": "QsCK3IM"
+    },
+    {
+      "password": "",
+      "id": "pXHRy6e"
+    },
+    {
+      "password": "g",
+      "id": "X9LV1cX"
+    },
+    {
+      "username": "DikshaJ",
+      "id": "oaaf9eu"
+    },
+    {
+      "password": "a",
+      "id": "MHF0Hga"
+    },
+    {
+      "password": "j",
+      "id": "xL-1SVT"
+    },
+    {
+      "id": "9QtA3O7"
+    },
+    {
+      "username": "gfd",
+      "password": "jbhgcfdx",
+      "id": "Odv6-P0"
+    },
+    {
+      "username": "ygtfdfs",
+      "password": "lkhgfg",
+      "id": "PPk77nC"
+    },
+    {
+      "username": "admin",
+      "password": "hgfdsjhgfd",
+      "id": "6TzWqnM"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<div class="register-container col">
+  <div class="px-4 py-3">
+    <h4>Register Form</h4>
+  </div>
+  <hr class="my-0" />
+  <form #registerForm="ngForm" class="px-4 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label>First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              [(ngModel)]="employeeRegistration.firstName"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              [(ngModel)]="employeeRegistration.lastName"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label>Username</label>
+            <input
+              type="text"
+              name="username"
+              [(ngModel)]="employeeRegistration.username"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              name="password"
+              [(ngModel)]="employeeRegistration.password"
+              class="form-control"
+              minlength="6"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div
+              class="form-group"
+              [class.has-error]="role.toched && role.invalid"
+            >
+              <label for="roles">Role:</label>
+              <span class="px-1">
+                <input
+                  type="radio"
+                  value="admin"
+                  name="role"
+                  [(ngModel)]="employeeRegistration.role"
+                  #role="ngModel"
+                  required
+                />
+                <label for="admin" class="px-1">Admin</label>
+              </span>
+              <span class="px-2">
+                <input
+                  type="radio"
+                  value="user"
+                  name="role"
+                  [(ngModel)]="employeeRegistration.role"
+                  #role="ngModel"
+                  required
+                />
+                <label for="user" class="px-1">User</label>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <hr class="my-0" />
+  <div class="p-3">
+    <div class="row mx-0">
+      <div class="col">
+        <button
+          type="button"
+          (click)="addEmployee()"
+          [disabled]="!registerForm.valid"
+          class="btn btn-secondary"
+        >
+          Register
+        </button>
+      </div>
+      <div class="col">
+        <button (click)="cancel()" class="btn btn-danger">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

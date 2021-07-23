@@ -1,0 +1,23 @@
+.register-container {
+    width: 60vw;
+    height: 70vh;
+    background-color: #a6b7bd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+button {
+    margin-right: 12px;
+}
+button:disabled{
+  background-color: transparent;
+}
+.btn {
+  width:100%
+}
+
+input.ng-invalid.ng-touched {
+  border-color: red;
+}
